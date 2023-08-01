@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilos/estilos.css" rel="stylesheet" type="text/css">
+    <title>Mi Curriculum</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <header class="titulo">
+        <nav>
+            <h1>Mariano Rodríguez</h1>
+                <ul>
+                    <li><a href="#">Pagina Principal</a></li>
+                    <li><a href="#">Sobre mi</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contenedor1">
+            <img src="imagenes/foto de perfil.jpg" alt="">
+            <div class="opacidad-fondo">
+            <h2 id="cursiva-title">Sobre mi...</h2>
+            <p>Desde muy pequeño siempre me interesó el mundo de la tecnología, hoy es parte de mi profesión.<br>Soy un apasionado de la investigación, la Filosofía y la Música.</p>
+            </div>
+        </div>
+        
+        <div class="contenedor3">
+            <h4 class="subtitulo">Habilidades y Conocimientos</h4>
+            <p>Como desarrollador web, tengo una pasión por la tecnología y el diseño gráfico. Mi conocimiento 
+                y experiencia me han llevado a dominar el lenguaje de programación JavaScript y el desarrollo w
+         web con tecnologías front-end como HTML, CSS y frameworks como VS-code. Además, tengo habilidades
+                 en el desarrollo de aplicaciones web utilizando JavaScript puro (Vanilla JS). A través de mi c
+                 onstante aprendizaje y lectura, me mantengo actualizado en las últimas tendencias y avances e
+                 n el campo de la tecnología y el desarrollo web. Estoy emocionado de aplicar mis habilidades y 
+                 conocimientos para crear soluciones web innovadoras y atractivas. Estoy listo para afrontar nuevos
+                  desafíos y contribuir con mi experiencia en proyectos web exitosos. 
+            </p>
+        </div>
+        <div class="contenedor2">
+            <h3 class="subtitulo">Experiencia Profesional</h3>
+            <table>
+                <tr>
+                    <th>Empresa / Organización</th>
+                    <th>Cargo</th>
+                    <th>Localización</th>
+                    <th>Desde / Hasta</th>
+                </tr>
+                <tr>
+                    <td>Lorem, ipsum.</td>
+                    <td>Lorem, ipsum.</td>
+                    <td>Lorem, ipsum.</td>
+                    <td>Lorem, ipsum.</td>
+                </tr>
+                <tr>
+                    <td>Lorem, ipsum dolor.</td>
+                    <td>Lorem, ipsum dolor.</td>
+                    <td>Lorem, ipsum dolor.</td>
+                    <td>Lorem, ipsum.</td>
+                </tr>
+                <tr>
+                    <td>Lorem.</td>
+                    <td>Lorem.</td>
+                    <td>Lorem.</td>
+                    <td>Lorem.</td>
+                </tr>
+                <tr>
+                    <td>lorem.</td>
+                    <td>Lorem, ipsum.</td>
+                    <td>Lorem, ipsum dolor.</td>
+                    <td>Lorem, ipsum dolor.</td>
+                </tr>
+            </table>
+        </div>
+        <div class="contenedor-educacion">
+            <h5 class="subtitulo">Educación</h5>
+            <table>
+                <tr>
+                    <th>Titulo</th>
+                    <th>Entidad</th>
+                    <th>Promoción</th>
+                </tr>
+                <tr>
+                    <td>Desarrollo Web</td>
+                    <td>Plan Ceibal (Jovenes a Programar)</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>Diseño Grafico (Photoshop)</td>
+                    <td>Gorka Areta (Curso Online)</td>
+                    <td>2021</td>
+                </tr>
+            </table>
+        </div>
+        <h6 class="subtitulo" id="contacto">Contacto</h6>
+        <div class="contenedor-contacto">
+            <form action="scrip.php" method="post">
+                <p>Para: <input type="mail" name="correo"></input></p>
+                <p>Temática: <select name="tematica" required>
+                    <option disabled selected>Seleccione una opción</option>
+                    <option>Consulta</option>
+                    <option>Propusta</option>
+                    <option>Reporte</option>
+                    <option>Otro</option>
+                </select></p>
+                <p>Asunto: <input type="text" name="asunto"></p>
+                <label for="mensaje">Mensaje: </label>
+                <textarea id="mensaje" name="mensaje" rows="3" cols="25"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <footer id="contenedor-redes">
+            <p><a href="https://www.linkedin.com/in/mariano-24-" target="_blank">Linkedin</a>  -  <a href="https://www.instagram.com/_mariano24_" target="_blank">Instagram</a></p>
+        </footer>
+    </main>
+</body>
+</html>

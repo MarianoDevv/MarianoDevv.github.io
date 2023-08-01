@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #121318;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: burlywood;
+}
+
+/* Contenedor superior sobre mi*/
+.contenedor1{
+    background-color: #121210;
+    height: 70vh;
+    color: rgb(255, 255, 255);
+    padding-top: 200px;
+    padding-left: 100px;
+    background-image: url("C:/Users/Usuario/Desktop/Mi CV/imagenes/teclado.jpg");
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+h2{
+    padding: 0 0 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45px;
+}
+
+p{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contenedor2{
+    text-align: center;
+    background-color: #B8C1CA;
+    padding-bottom: 30px;
+}
+
+.opacidad-fondo{
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+    background-color: rgb(237, 237, 237);
+
+}
+
+th{
+    background-color: lightgrey;
+}
+
+.contenedor3{
+    padding: 10px 80px;
+    padding-bottom: 30px;
+    color: white;
+    background-color: #3C484E;
+    text-align: justify;
+
+}
+
+.subtitulo{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+#cursiva-title{
+    font-family: 'Josefin Slab', serif;
+    font-size: 50px;
+}
+
+.contenedor-educacion{
+    background-color: #D5D3CF;
+    padding-bottom: 30px;
+}
+
+.contenedor-contacto{
+    background-color: #B8C1CA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+h6{
+    background-color: #B8C1CA;
+}
+
+#contenedor-redes{
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
